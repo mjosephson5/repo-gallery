@@ -168,6 +168,8 @@ backToRepoGallButton.addEventListener("click", function(pizza){
 totalRepoData.classList.remove("hide")
 //Add the “hide” class to the Back to Repo Gallery button itself - not sure why we did this and then removed the hide on line 161
 backToRepoGallButton.classList.add("hide")
+//Add the "hide" class back to the individual repo data so it disappears when you go back to main repo gallery
+individualRepoData.classList.add("hide")
 });
 
 //Add an input Event to the Search Box -
